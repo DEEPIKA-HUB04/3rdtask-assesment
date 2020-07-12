@@ -1,0 +1,51 @@
+.container{
+    width: 800px;
+    margin:0 auto;
+    height:680px;
+background-color:white;
+
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction:row;
+  }
+  .flex-container>div {
+    background-color:antiquewhite;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width:200px;
+    height:250px;
+  }
+  h1{
+      font-size: 20px;
+  }
+  p{
+      font-size: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  h3{
+      float: left;
+      font-size: small;
+  }
+  .btn{
+
+    background-color: green;
+    margin-left: 50px;
+   
+    border-radius: 5px;
+    color: white;
+
+  }
+  .btn_view1{
+      margin-left: 10px;
+background-color: blue;
+  }
+  .btn_view2{
+background-color: pink;
+
+  }
+  h4{
+    margin-top: -5px;
+  }
